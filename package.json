@@ -1,0 +1,36 @@
+{
+  "name": "coup-discord",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev:frontend": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jp1200/Coup-Discord.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Jp1200/Coup-Discord/issues"
+  },
+  "homepage": "https://github.com/Jp1200/Coup-Discord#readme",
+  "dependencies": {
+    "@discord/embedded-app-sdk": "^2.5.0",
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3",
+    "socket.io-client": "^4.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "vite": "^8.2.2"
+  }
+}
