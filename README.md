@@ -1,0 +1,1 @@
+Run npm run dev:frontend in one terminal tab to handle the immediate compilation of your interface canvas, styling sheet, or UI buttons.Run npm run dev:backend in a second terminal tab to open the data pipeline server on port 3000.Tunnel port 3000 via a forwarding client to pipe the production build out to Discord.
